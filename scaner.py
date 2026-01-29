@@ -147,9 +147,9 @@ def get_signatures(): 						# Module whict extract signatures from file or creat
 	return signatures						# Returns list of signatures which we seek on sites
 # ======================_____________________======================
 # Эта программа создана для извлечения полезных данных с выбранных сайтов методом рекурсивного древовидного прохода
-# Почти все инструменты и библиотеки вшиты в Python (кроме Selectolax)
+# Требования: Selectolax, requests, urllib
 # This program made to extract useful data from sites using method of recursive tree-walking
-# Most of instuments uses basical Python libs (instead of Selectolax)
+# Requirements: Selectolax, requests, urllib
 # ======================_____________________======================
 
 if __name__ == "__main__":
